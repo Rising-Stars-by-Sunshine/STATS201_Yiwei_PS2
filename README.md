@@ -3,7 +3,7 @@ This repository is the problem set 2 for the course STATS201.
 ## Description
 - The GitHub repository contains materials for a problem set assignment for a statistics course. It includes a self-introduction of the student Yiwei Liang, a detailed overview of a prediction problem involving sentiment analysis of social media replies using machine learning techniques, the methodology and results presentation plan, model evaluation criteria, and iterative improvement strategies. It also contains data descriptions, data dictionaries, flowcharts, code snippets showcasing data query processes in Python/Java/Go, as well as a citation for a relevant research paper on low-rank adaptation of large language models.
 ## Table of Content
-- [Self Introduction](#https://github.com/Rising-Stars-by-Sunshine/STATS201_Yiwei_PS2#self-introduction)
+- [Self Introduction](# https://github.com/Rising-Stars-by-Sunshine/STATS201_Yiwei_PS2#self-introduction)
 - [Method](#https://github.com/Rising-Stars-by-Sunshine/STATS201_Yiwei_PS2/tree/main/method#method)
   - [The Prediction Problem](#https://github.com/Rising-Stars-by-Sunshine/STATS201_Yiwei_PS2/tree/main/method#11-the-prediction-problem)
   - [Hypothesis Development](#https://github.com/Rising-Stars-by-Sunshine/STATS201_Yiwei_PS2/tree/main/method#hypothesis-development)
