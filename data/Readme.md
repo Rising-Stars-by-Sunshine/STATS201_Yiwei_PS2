@@ -1,4 +1,6 @@
 # Data
+## Download data
+- Download from https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset
 ## Description
 - The dataset contains several columns: 'textID' identifying each entry, 'text' representing the original text, 'selected_text' indicating a selected part of the original text, and 'sentiment' classifying the sentiment as positive, negative, or neutral. The 'text' column contains various tweets, while 'selected_text' represents a snippet of the original text that carries the sentiment. Sentiments are diverse, ranging from positive (like "fun" and "interesting"), neutral (like URLs or general statements), to negative (such as "bullying" or expressions of sadness and frustration). The dataset seems derived from social media or text-based platforms, with sentiments extracted to train sentiment analysis or similar models. The 'selected_text' could be the focal point for sentiment analysis algorithms, teaching them to identify sentiment-bearing phrases within larger texts.
 ## Data Dictionary
