@@ -2,7 +2,6 @@
 ## Description
 - The data query process involves importing a dataset using Pandas in Python, reading a CSV file, and creating a JSON file. The code initializes an empty list for data storage, iterates through each row of the dataset, and constructs a structured output based on specific columns. This structured data is formatted into a dictionary and appended to the list. Finally, the list containing the structured data is written to a JSON file using the json.dump method. This process is language-agnostic and showcases the general steps of reading, processing, and exporting data, adaptable to languages like Java and Go with their respective syntax adjustments.
 ## pseudo-code
-```
  ________________________________________________________
 | Python                            | Java   | Go       |
 |-----------------------------------|--------|----------|
@@ -19,7 +18,6 @@
 | with open("dataset.json", "w") as f: | // Write to JSON file | // Write to JSON file |
 |     json.dump(dataset_data, f)    | // Write to JSON file | // Write to JSON file |
 |___________________________________|____________________|____________|
-```
 ```
 \begin{table}[h]
 \centering
