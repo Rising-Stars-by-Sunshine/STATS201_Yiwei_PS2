@@ -2,6 +2,23 @@
 ## Description
 - The data query process involves importing a dataset using Pandas in Python, reading a CSV file, and creating a JSON file. The code initializes an empty list for data storage, iterates through each row of the dataset, and constructs a structured output based on specific columns. This structured data is formatted into a dictionary and appended to the list. Finally, the list containing the structured data is written to a JSON file using the json.dump method. This process is language-agnostic and showcases the general steps of reading, processing, and exporting data, adaptable to languages like Java and Go with their respective syntax adjustments.
 ## pseudo-code
+ ________________________________________________________
+| Python                            | Java   | Go       |
+|-----------------------------------|--------|----------|
+| import pandas as pd               | // Import statements | // Import statements |
+| df = pd.read_csv("Tweets.csv", engine='python', sep=None) | // Read CSV file | // Read CSV file |
+| dataset_data = []                 | // Initialize data structures | // Initialize data structures |
+| temp1 = len(df.text)              | // Get data length | // Get data length |
+| for i in range(0, temp1):         | // Loop through data | // Loop through data |
+|     temp2 = "The sentiment is " + df.sentiment[i] + ". Because of it contains " + str(df.selected_text[i]) | // Process data | // Process data |
+|     dataset_data.append({"instruction": "Detect the influence of price.", | // Construct data structure | // Construct data structure |
+|                          "input": df.text[i],                        | // Construct data structure | // Construct data structure |
+|                          "output": temp2})                         | // Construct data structure | // Construct data structure |
+| import json                       | // Import statements | // Import statements |
+| with open("dataset.json", "w") as f: | // Write to JSON file | // Write to JSON file |
+|     json.dump(dataset_data, f)    | // Write to JSON file | // Write to JSON file |
+|___________________________________|____________________|____________|
+
 ```
 \begin{table}[h]
 \centering
